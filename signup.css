@@ -1,0 +1,28 @@
+body{
+    background-color: #e2d8ed;
+  }
+  .sign{
+      position: relative;
+      width: 30%;
+      height: 500px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin: 30px auto;
+      background-image: url(./images/signimage.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .hero-text{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      color:  #470098;
+      margin-top: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+      
+  }
